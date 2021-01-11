@@ -91,6 +91,10 @@ hr {
   margin-left: 30px;
 }
 
+.abilities-table{
+  margin: 0 auto;
+}
+
 .bottom-container {
   background-color: #66bfbf;
   padding-top: 50px;
@@ -138,4 +142,18 @@ hr {
 .footer-info {
   color: #eaf6f6;
   padding: 40px 0 40px 0;
+}
+
+@media (max-width: 1020px) {
+  .middle-container h3 {
+    font-size: 2rem;
+  }
+
+  .middle-container p {
+    font-size: 1.3rem;
+  }
+
+  .footer-pic {
+    width: 5%;
+  }
 }
